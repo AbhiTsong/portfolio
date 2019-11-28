@@ -6,12 +6,12 @@ export default function PreviewComponent({title, items}) {
 
  return (
   <div className="preview">
-   <h1 className="header" >{title.toUpperCase()}</h1>
+   <h4 className="header" >{title.toUpperCase()}</h4>
    {
     items
     .filter((item, index) => index < 1)
-    .map((items) =>(
-     <PreviewCardComponent key ={items.id} items = {items}/>
+    .map((item) =>(
+     <PreviewCardComponent key ={item.id} items = {item}/>
     ) )  
    }
   </div>

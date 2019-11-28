@@ -5,7 +5,7 @@ import ProjectComponent from "../../Components/ProjectsComponent/ProjectComponen
 export default function ReactProject() {
  // console.log(items)
  return (
-  <div>
+  <div className="project-cards">
    <h1>React</h1>
    <ProjectConsumer>
    {

@@ -1,0 +1,13 @@
+.project-cards{
+ display: flex;
+ position: absolute;
+ justify-content: space-around;
+ align-items: center;
+ h1{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10em;
+ }
+}

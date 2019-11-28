@@ -1,6 +1,4 @@
 .preview-card{
- display: flex;
- flex-direction: column;
  height: 25em;
  align-items: center;
   .image{
@@ -9,4 +7,19 @@
     width: 20rem;
     object-fit: cover;
   }
- }
+
+  @media (max-width: 800px){
+    height: 5em;
+    align-items: center;
+    grid-template-columns: 1fr;
+    .card-image{
+      margin-left: 1em;
+      .image{
+        height: 6rem;
+        margin: 0 auto;
+        width: 6rem;
+        object-fit: cover;
+      }
+    }
+  }
+}

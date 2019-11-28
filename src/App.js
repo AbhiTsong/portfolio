@@ -2,6 +2,7 @@ import React from 'react';
 import {Route, Switch} from "react-router-dom";
 import './App.css';
 import ProjectProvider from "./Context";
+import HeaderComponent from "./Components/Header/HeaderComponent";
 
 // Page Imports
 import HomePage from "./Pages/Home/HomePage"
@@ -16,6 +17,7 @@ import GraveProject from  "./Pages/GraveProject/GraveProject"
 function App() {
   return (
     <ProjectProvider>
+      <HeaderComponent/>
     <div className="App">
       <Switch>
         <Route exact path ="/" component ={HomePage}/>
