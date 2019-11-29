@@ -6,7 +6,7 @@ export default function PreviewComponent({title, items}) {
 
  return (
   <div className="preview">
-   <h4 className="header" >{title.toUpperCase()}</h4>
+   <h2 className="header" >{title.toUpperCase()}</h2>
    {
     items
     .filter((item, index) => index < 1)

@@ -8,7 +8,7 @@ function PreviewCardComponent({items}) {
   <div className="preview-card" key = {id}>
    <div className="card-image">
     <Link to={`${id === 1 ? "/project/react" :`${id === 2 ? "/project/html" : "/project/grave"}`}`}>
-      <img className="image" onClick={() => console.log(id)} src={imageUrl} alt="logos" />
+      <img className="image"  src={imageUrl} alt="logos" />
     </Link>
    </div>
   

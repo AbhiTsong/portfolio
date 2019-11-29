@@ -64,7 +64,7 @@ const PROJECT_DATA = [
   },
   {
     id: 3,
-    title: 'Project Graveyard',
+    title: 'Fun Projects',
     routeName: 'react',
     items: [
       {
@@ -124,7 +124,7 @@ export const PROJECT_PREVIEW =[
  },
  {
   id: 3,
-    title: 'Project Grave',
+    title: "Fun Projects",
     routeName: 'grave',
     items: [
       {
@@ -135,6 +135,7 @@ export const PROJECT_PREVIEW =[
       }
     ]
  }
-    
-  ]
+]
+
+
 export default PROJECT_DATA;

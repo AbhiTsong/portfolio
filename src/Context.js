@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import PROJECT_DATA from "./project.data";
 
+
 const ProjectContext = React.createContext()
 
 export default class ProjectProvider extends Component {
@@ -8,7 +9,6 @@ export default class ProjectProvider extends Component {
   super(props)
   this.state = {
     project: PROJECT_DATA,
-    react: []
   }
  }
  

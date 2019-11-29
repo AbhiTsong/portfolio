@@ -1,13 +1,21 @@
 .project-cards{
- display: flex;
- position: absolute;
- justify-content: space-around;
- align-items: center;
+ background: rgb(238,174,202);
+background: linear-gradient(63deg, rgba(238,174,202,1) 0%, rgba(0,0,0,0.4430147058823529) 100%);
+padding-top: 3em;
+padding-bottom: 45vh;
+overflow-y: hidden;
+
  h1{
-  position: relative;
   display: flex;
-  justify-content: center;
   align-items: center;
-  margin-left: 10em;
+  justify-content: center;
+  color: aliceblue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  &.topic{
+   color: azure;
+   font-weight: bold;
+  }
  }
+ 
 }

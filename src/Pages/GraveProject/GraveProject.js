@@ -5,8 +5,8 @@ import ProjectComponent from "../../Components/ProjectsComponent/ProjectComponen
 export default function ReactProject() {
  // console.log(items)
  return (
-  <div>
-   <h1>React</h1>
+  <div className="project-cards">
+   <h1>Fun Projects</h1>
    <ProjectConsumer>
    {
     value => {

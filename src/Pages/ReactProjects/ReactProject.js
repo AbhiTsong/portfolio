@@ -1,4 +1,5 @@
 import React from 'react'
+import "./ReactStyles.scss"
 import {ProjectConsumer} from "../../Context";
 import ProjectComponent from "../../Components/ProjectsComponent/ProjectComponent"
 
@@ -6,7 +7,7 @@ export default function ReactProject() {
  // console.log(items)
  return (
   <div className="project-cards">
-   <h1>React</h1>
+   <h1 className="topic">React</h1>
    <ProjectConsumer>
    {
     value => {
