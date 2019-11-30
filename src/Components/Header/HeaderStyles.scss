@@ -2,74 +2,77 @@
 
 
 .nav-bar{
- position: sticky;
- display: flex;
- z-index: 1;
- top: 0;
- justify-content: space-between;
- align-items: center;
- margin: 0 auto;
- padding: 0 3rem;
- background-color: rgba(51, 51, 51, 0.267);
- opacity: rgba(0,0,0,0.9);
- a{text-decoration: none;}
- h1{
-   margin: 0.1em auto -0.1em;
-   font-family: 'Cookie', cursive;
-   font-size: 4em;
-   font-weight: 100;
-  color: #fff;
-  transition-duration: 0.5s;
-  &:hover{
-   color: rgb(226, 11, 126);
-  }
- }
- .options a{
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 0.5em 1em;
-  border: 2px solid rgb(250, 0, 175);
-  border-radius: 50px;
-  margin: 0 0.5em;
-  transition-duration: 0.5s;
-  &:hover{
+  background-color: rgba(51, 51, 51, 0.267);
+ .container{
+   max-width: 1500px;
+   position: sticky;
+   display: flex;
+   z-index: 1;
+   top: 0;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 auto;
+   padding: 0 3rem;
+   opacity: rgba(0,0,0,0.9);
+   a{text-decoration: none;}
+   h1{
+     margin: 0.1em auto -0.1em;
+     font-family: 'Cookie', cursive;
+     font-size: 4em;
+     font-weight: 100;
+     color: #fff;
+     transition-duration: 0.5s;
+     &:hover{
+       color: rgb(226, 11, 126);
+      }
+    }
+    .options a{
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 0.5em 1em;
+      border: 2px solid rgb(250, 0, 175);
+      border-radius: 50px;
+      margin: 0 0.5em;
+      transition-duration: 0.5s;
+      &:hover{
    background: rgba(241, 241, 240, 0.192);
    border: 2px solid #fff;   
    color:rgb(250, 0, 175)
   }
- }
+}
 
- @media  (max-width: 800px){
-    padding-right: 5em;
+@media  (max-width: 800px){
+  padding-right: 5em;
     padding-bottom: 1.5em;
     display: flex;
     flex-direction: column;
     h1{
       margin-bottom: 0.01em;
     }
-
- }
- @media (max-width: 420px){
-   overflow: unset;
-   padding-top: 0.1rem;
-  h1{
-   display: block;
-   font-size: 3em;
-   padding-bottom: 0.1em;
+    
   }
-
- }
-
- @media (max-width: 360px){
-  display: flex;
+  @media (max-width: 420px){
+    overflow: unset;
+    padding-top: 0.1rem;
+    h1{
+      display: block;
+      font-size: 3em;
+      padding-bottom: 0.1em;
+    }
+    
+  }
+  
+  @media (max-width: 360px){
+    display: flex;
     flex-direction: column;
-
-  h1{
-   display: block;
-  }
-  .options a{
-   padding: 0.2em 0.8em;
+    
+    h1{
+      display: block;
+    }
+    .options a{
+      padding: 0.2em 0.8em;
+    }
   }
  }
 }

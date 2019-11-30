@@ -2,17 +2,20 @@ import React from 'react'
 import "./AboutPageStyles.scss";
 
 export default function AboutPage() {
- return (
-  <section className="entire-section">
+  return (
+    <section className="entire-section">
+
   <section className="section-intro">
+      <div className="container">
    <h1>About MySelf</h1>
    <h3>
      Hi my name is Abhishek Subba(Limboo). I am a self taught web developer and for  UI/UX designes i like to experiment and be a perfectionist at it in accordance to my imagination. I started coding by going through youtube videos and reading bogs and articals. Looking at the job market I started to learn R and Python for Data Science. But when I wrote my 1st HTML and CSS code I got hooked and I  have never looked back since then. I quickly realized that I could do this for the rest of my life and so I gave my 100%. And I went through several online courses and articles to get the best out of myself.
    </h3>
+    </div>
   </section>
   <section className="my-tech">
     <h1>Technologies That I Know</h1>
-    <div>
+    <div className="container">
       <div>
         <img alt="React Logo" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs3-eu-west-1.amazonaws.com%2Fdevinterface-web%2Fproduction%2Ftechnologies%2F43%2Fmedium%2Freact-logo.png%3F1450793506&f=1&nofb=1 "/>
       </div>
@@ -72,7 +75,7 @@ export default function AboutPage() {
         </aside>
   </section>
   <footer>
-    <div>
+    <div className="container">
       <h1>Contact Me</h1>
       <div>
         <p>Linked In</p>

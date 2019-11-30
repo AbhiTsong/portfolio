@@ -5,6 +5,7 @@ import "./HeaderStyles.scss"
 export default function HeaderComponent() {
  return (
   <div className="nav-bar">
+   <div className="container">
    <div className="logo">
     <NavLink exact to="/">
     <h1>AbhiTsong</h1>
@@ -20,6 +21,7 @@ export default function HeaderComponent() {
     <NavLink to="/about" activeStyle = {{fontWeight: "bold", color: "rgba(240, 5, 248, 0.959)"}}>
      About
     </NavLink>
+   </div>
    </div>
   </div>
  )

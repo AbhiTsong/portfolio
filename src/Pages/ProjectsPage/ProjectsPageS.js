@@ -18,11 +18,13 @@ class ProjectsPageS extends React.Component{
   const {project} = this.state;
   return (
    <div className="project-page">
-   {
-    project.map(({id, ...propsProject}) => (
-     <PreviewComponent key = {id} {...propsProject}/>
-    ) )
-   }
+      {
+        project.map(({id, ...propsProject}) => (
+       <div className="container">
+          <PreviewComponent key = {id} {...propsProject}/>
+       </div>
+          ) )
+       }
   </div>
  )
  }
