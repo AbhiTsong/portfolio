@@ -34,6 +34,7 @@ export default function AboutPage() {
     </div>
   </section>
   <section className="qualification">
+        <div className="school">
         <h1>EDUCATION</h1>
         <div className="education">
         <div>
@@ -46,25 +47,29 @@ export default function AboutPage() {
         </div>
         <div>
           <h2>12th Standard</h2>
-          <p>I have completed my Class 12 (CBSE) from Pelling Senior Sec School. With 60.6% (CGPA)</p>
+          <p>I have completed my Class 12 Commerce (CBSE) from Pelling Senior Sec School. With 60.6% (CGPA)</p>
         </div>
         <div>
           <h2>10th Standard</h2>
           <p>I have completed my Class 10 (ICSE) from St Mary Convent School Geyzing. With 80%</p>
         </div>
         </div>
-        <h1>Skill Sets</h1>
-        <p>Follown are some of the skill sets that I have</p>
-        <div>
-          <p>Problem Solving</p>
-          <p>Commumication</p>
-          <p>Leadership</p>
-          <p>Management</p>
-          <p>Time Management</p>
-          <p>Decision Making</p>
-          <p>Market Research</p>
-          <p>Excellent In Interpersonal Skills</p>
         </div>
+        <aside>
+        <h1>Skill Sets</h1>
+          <h3>Following are some of the skill sets that I have</h3>
+            <ul>
+              <li>Problem Solving</li>
+              <li>Commumication</li>
+              <li>Leadership</li>
+              <li>Management</li>
+              <li>Time Management</li>
+              <li>Decision Making</li>
+              <li>Market Research</li>
+              <li>Fast Learner</li>
+              <li>Excellent In Interpersonal Skills</li>
+            </ul>
+        </aside>
   </section>
   <section>
     <h1>Hire Me</h1>
