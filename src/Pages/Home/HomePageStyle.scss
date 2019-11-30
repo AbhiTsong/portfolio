@@ -36,6 +36,16 @@
      margin-top: 0;
      font-family: cursive;
     }
+  .contacts{
+    color: aliceblue;
+    z-index: 1;
+    ul{
+      li{
+        display: inline;
+        padding-right: 0.5em;
+      }
+    }
+  }  
  }
  
  .video-container{

@@ -5,12 +5,13 @@
  justify-content: space-around;
  margin-top: 0;
  padding-top: 10em;
- padding-bottom: 100%;
+ padding-bottom: 30vh;
  margin-bottom: 0;
  background-size: 100%;
  background: rgb(63,94,251);
 background: radial-gradient(circle, rgba(63,94,251,1) 15%, rgba(195,70,252,0.3477766106442577) 96%);
  @media (max-width: 800px){
+  padding-top: 1em;
   display: flex;
   flex-direction: column;
  }

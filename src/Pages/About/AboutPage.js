@@ -71,14 +71,16 @@ export default function AboutPage() {
             </ul>
         </aside>
   </section>
-  <section>
-    <h1>Hire Me</h1>
+  <footer>
     <div>
-      <p>Linked In</p>
-      <p>Facebook</p>
-      <p>Email</p>
+      <h1>Contact Me</h1>
+      <div>
+        <p>Linked In</p>
+        <p>Facebook</p>
+        <p>Email limbooabhishek5@gmail.com</p>
+      </div>
     </div>
-  </section>
+  </footer>
   </section>
  )
 }

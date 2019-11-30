@@ -3,7 +3,7 @@ import "./PreviewCardStyles.scss"
 import {Link} from "react-router-dom";
 
 function PreviewCardComponent({items}) {
- const {name,imageUrl, id} = items
+ const {imageUrl, id} = items
  return (
   <div className="preview-card" key = {id}>
    <div className="card-image">

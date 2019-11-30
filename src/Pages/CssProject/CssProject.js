@@ -11,8 +11,8 @@ export default function ReactProject() {
    <ProjectConsumer>
    {
     value => {
-     return value.project.
-     filter((el, indx) => {return(el.id === 2)} )
+     return value.project
+     .filter((el, indx) => {return(el.id === 2)} )
      .map(el => <ProjectComponent key = {el.id} project={el}/>)
      
     }

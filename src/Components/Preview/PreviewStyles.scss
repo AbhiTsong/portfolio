@@ -1,8 +1,9 @@
 .preview{
   h2{
-    color: rgba(36, 0, 240, 0.856);
+    color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
+    font-size: 3em;
+    margin-top: 3em;
   }
  .header{
   text-align: center;
@@ -12,12 +13,14 @@
   .header{
   display: flex;
   flex-direction: row;
+  font-size: 2em;
   }
  }
  @media (max-width: 800px){
   .header{
   display: flex;
   flex-direction: row;
+  font-size: 1em;
   }
  }
 

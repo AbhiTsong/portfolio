@@ -10,8 +10,7 @@ export default function ReactProject() {
    <ProjectConsumer>
    {
     value => {
-     return value.project.
-     filter((el, indx) => {return(el.id === 3)} )
+     return value.project.filter((el, indx) => {return(el.id === 3)} )
      .map(el => <ProjectComponent key = {el.id} project={el}/>)
      
     }
