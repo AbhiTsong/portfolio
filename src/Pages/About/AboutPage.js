@@ -9,7 +9,7 @@ export default function AboutPage() {
       <div className="container">
    <h1>About MySelf</h1>
    <h3>
-     Hi my name is Abhishek Subba(Limboo). I am a self taught web developer and for  UI/UX designes i like to experiment and be a perfectionist at it in accordance to my imagination. I started coding by going through youtube videos and reading bogs and articals. Looking at the job market I started to learn R and Python for Data Science. But when I wrote my 1st HTML and CSS code I got hooked and I  have never looked back since then. I quickly realized that I could do this for the rest of my life and so I gave my 100%. And I went through several online courses and articles to get the best out of myself.
+     Hi my name is Abhishek Subba(Limboo). I am a highly motivated self taught web developer and for  UI/UX designes i like to experiment and bring my imaginations to life. I started coding by going through youtube videos and reading documentations, blogs and articals. Looking at the job market I did a certified course on R and Python for Data Science. But when I wrote my 1st HTML and CSS code I got hooked and I  have never looked back since then. I quickly realized that this was the reason why I wanted to learn to code and could do this for the rest of my life and so I gave my 100% and I went through several online courses and articles to get the best out for myself.<br/> Most of my websites are fully responsive. Currently iam working on the PWA version of my websites and polishing my CSS skills, State Management skills with Redux and GSAP for animation.<br/><br/> <strong>"CURRENTLY MY WEBSITES ARE HOSTED ON FREE SERVER SO IT MAY BE A BIT SLOW."</strong><br/><br/> If you would like to hire please email or message me on LinkedIn.
    </h3>
     </div>
   </section>
@@ -42,7 +42,7 @@ export default function AboutPage() {
         <div className="education">
         <div>
           <h2>MBA</h2>
-          <p>I have completed my MBA in finance and IT from Shimla University. With 8.2 (SGPA)on August 2019</p>
+          <p>I have completed my MBA in Finance and IT from Shimla University. With 8.2 (SGPA)on August 2019</p>
         </div>
         <div>
           <h2>B.Com</h2>
@@ -50,11 +50,11 @@ export default function AboutPage() {
         </div>
         <div>
           <h2>12th Standard</h2>
-          <p>I have completed my Class 12 Commerce (CBSE) from Pelling Senior Sec School. With 60.6% (CGPA)</p>
+          <p>I have completed my Class 12 Commerce (CBSE) from Pelling Senior Sec School West Sikkim. With 60.6% (CGPA)</p>
         </div>
         <div>
           <h2>10th Standard</h2>
-          <p>I have completed my Class 10 (ICSE) from St Mary Convent School Geyzing. With 80%</p>
+          <p>I have completed my Class 10 (ICSE) from St Mary Convent School Geyzing, West Sikkim. With 80%</p>
         </div>
         </div>
         </div>
@@ -62,6 +62,7 @@ export default function AboutPage() {
         <h1>Skill Sets</h1>
           <h3>Following are some of the skill sets that I have</h3>
             <ul>
+              <li>Respinsive Web Design</li>
               <li>Problem Solving</li>
               <li>Commumication</li>
               <li>Leadership</li>
@@ -78,8 +79,9 @@ export default function AboutPage() {
     <div className="container">
       <h1>Contact Me</h1>
       <div>
-        <p>Linked In</p>
-        <p>Facebook</p>
+      <a rel="noopener noreferrer"  target="_blank" href="https://www.facebook.com/abhishek.subba2"><i class="fab fa-facebook fa-2x"/></a>
+      <a rel="noopener noreferrer"  target="_blank" href="https://www.linkedin.com/in/abhishek-subba-limboo-2a4846152/"><i class="fab fa-linkedin fa-2x"/></a>
+        <a rel="noopener noreferrer"  target="_blank" href="https://github.com/AbhiTsong"><i class="fab fa-github fa-2x"/></a>
         <p>Email limbooabhishek5@gmail.com</p>
       </div>
     </div>

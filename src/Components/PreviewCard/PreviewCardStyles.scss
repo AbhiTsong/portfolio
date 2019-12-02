@@ -1,11 +1,18 @@
 .preview-card{
  height: 25em;
  align-items: center;
-  .image{
-    width: 200px;
-    display: block;
-    margin: auto;
-    object-fit: cover;
+  .card-image{
+
+    .image{
+      width: 200px;
+      display: block;
+      margin: auto;
+      object-fit: cover;
+      transition-duration: 1s;
+      &:hover{
+        transform: scale(1.5)
+      }
+    }
   }
 
   @media (max-width: 800px){

@@ -1,6 +1,7 @@
 import React from 'react';
 import "./HomePageStyle.scss";
 import ocean from "../../Assets/motion.mp4"
+import {Link} from "react-router-dom";
 
 export default function HomePage() {
  return (
@@ -19,10 +20,10 @@ export default function HomePage() {
      </p>
      <div className="contacts">
        <ul>
-         <li>f</li>
-         <li>g</li>
-         <li>l</li>
-         <buttom>--></buttom>
+         <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/abhishek.subba2"><i className="fab fa-facebook fa-2x"/></a>
+         <a rel="noopener noreferrer"  target="_blank" href="https://www.linkedin.com/in/abhishek-subba-limboo-2a4846152/"><i className="fab fa-linkedin fa-2x"/></a>
+         <a rel="noopener noreferrer"  target="_blank" href="https://github.com/AbhiTsong"><i className="fab fa-github fa-2x"/></a>
+         <Link to="/project"><i className="far fa-hand-point-right fa-2x"/></Link>         
        </ul>
      </div>
    </div>

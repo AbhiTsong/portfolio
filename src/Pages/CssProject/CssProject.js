@@ -4,7 +4,6 @@ import {ProjectConsumer} from "../../Context";
 import ProjectComponent from "../../Components/ProjectsComponent/ProjectComponent"
 
 export default function ReactProject() {
- // console.log(items)
  return (
   <div className="project-cards">
    <h1>HTML 5 & CSS 3</h1>

@@ -1,3 +1,38 @@
 .projects{
+ position: relative;
  margin: 0 1em;
+ h1{
+  font-size: 2em;
+ }
+ a{
+   img{
+    transform: 1s;
+    width: 400px;
+   }
+ }
+  .button{
+  position: absolute;
+  top: 75%;
+  left: 30%;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  color: #fff;
+  visibility: hidden;
+  border: 1px solid #fff;
+  padding: 0.5em;
+  font-size: 1.3em;
+  border-radius: 20px;
+}
+&:hover{
+  img{
+    transform: scale(1.1)
+  }
+  .button{
+    visibility: visible;
+    background: #777;
+  //  background: rgba(202, 189, 189, 0.445);
+   opacity: 0.9
+  }
+ }
 }
