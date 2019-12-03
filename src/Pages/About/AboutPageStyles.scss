@@ -17,7 +17,7 @@
   color: #555;
   width: 100%;
   background: rgb(238,174,202);
-background: linear-gradient(225deg, rgba(238,174,202,1) 0%, rgba(133,173,181,1) 41%, rgba(224,164,190,1) 77%, rgba(0,0,0,0.4430147058823529) 100%);
+  background: linear-gradient(225deg, rgba(238,174,202,1) 0%, rgba(133,173,181,1) 41%, rgba(224,164,190,1) 77%, rgba(0,0,0,0.4430147058823529) 100%);
  .container{
    padding: 0 1em;
     max-width: 1300px;
@@ -85,11 +85,21 @@ div{
      }
    }
   }
+  @media (max-width: 1445px){
+  div{
+    div{
+      margin-left: 0;
+    }
+  }
+  }
   @media (max-width: 1030px){
     padding-bottom: 15em;
     div{
      display: grid;
      grid-template-columns: 1fr 1fr;
+     div{
+       margin-left: 0;
+     }
     }
    }
    @media (max-width: 800px){
@@ -107,7 +117,7 @@ div{
     }
   }
 }
-  @media (max-width: 420px){
+  @media (max-width: 425px){
     h1{
       text-align: center;
       font-size: 2.3em;
@@ -233,6 +243,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endCo
         }
       }
       p{
+        font-family: 'Courier New', Courier, monospace;
         font-size: 1em;
         font-weight: bolder;
         margin-bottom: 2em;
