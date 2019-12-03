@@ -10,6 +10,7 @@
   overflow-x: hidden;
   overflow-y: hidden; 
   line-height: 2em;
+  font-family: 'Bebas Neue', cursive;
   .container{
     max-width: 1500px;
     .name-disc{
@@ -26,7 +27,6 @@
     padding: 20px;
     margin: 15px;
     z-index: 1;
-    font-family: 'Cookie', cursive;
     font-weight: 100;
     // margin-bottom: 0px;
   }
@@ -37,7 +37,6 @@
     text-align: center;
     font-size: 2em;
     margin-top: 0;
-    font-family: cursive;
   }
   .contacts{
     color: aliceblue;

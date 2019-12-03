@@ -1,6 +1,7 @@
 .projects{
  position: relative;
  margin: 0 1em;
+ font-family: 'Bebas Neue', cursive;  
  h1{
   font-size: 2em;
  }
@@ -21,7 +22,6 @@
   visibility: hidden;
   border: 1px solid #fff;
   padding: 0.5em;
-  font-size: 1.3em;
   border-radius: 20px;
 }
 &:hover{
