@@ -62,7 +62,7 @@ export default function AboutPage() {
         <h1>Skill Sets</h1>
           <h3>Following are some of the skill sets that I have</h3>
             <ul>
-              <li>Respinsive Web Design</li>
+              <li>Responsive Web Design</li>
               <li>Problem Solving</li>
               <li>Commumication</li>
               <li>Leadership</li>
