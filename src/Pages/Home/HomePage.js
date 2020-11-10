@@ -20,7 +20,7 @@ export default function HomePage() {
      </p>
      <div className="contacts">
        <ul>
-         <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/abhishek.subba2"><i className="fab fa-facebook fa-2x"/></a>
+         <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com"><i className="fab fa-facebook fa-2x"/></a>
          <a rel="noopener noreferrer"  target="_blank" href="https://www.linkedin.com/in/abhishek-subba-limboo-2a4846152/"><i className="fab fa-linkedin fa-2x"/></a>
          <a rel="noopener noreferrer"  target="_blank" href="https://github.com/AbhiTsong"><i className="fab fa-github fa-2x"/></a>
          <Link to="/project"><i className="far fa-hand-point-right fa-2x"/></Link>         
